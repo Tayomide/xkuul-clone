@@ -28,3 +28,9 @@ table {
 header{
   display: none;
 }
+
+/* Hide footer */
+
+footer{
+  display: none;
+}
