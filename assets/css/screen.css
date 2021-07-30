@@ -53,12 +53,19 @@ footer{
   flex-direction: column;
 }
 
+.home-1 h2, .home-1 a, .home-1 p{
+  color: rgb(255, 255, 255);
+}
+
 .home-2{
   background-image: url(../pictures/home-2-background.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 64px 24px 64px 24px;
+}
+.home-2 p{
+  color: #6e7180;
 }
 .home-2 article h2{
   margin-bottom: 20px;
@@ -91,5 +98,32 @@ footer{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 64px 24px 48px 24px;
+  padding: 64px 24px 0px 24px;
+  box-sizing: border-box;
+}
+.flex-4{
+  padding-bottom: 48px;
+}
+.flex-4 ul{
+  display: flex;
+}
+.flex-4 ul li{
+  width: 50%;
+  box-sizing: border-box;
+}
+.flex-4 a{
+  margin-top: 32px;
+}
+.flex-4 .bord{
+  border-left: 1px solid #DEE1F8;
+}
+.flex-4 h6{
+  padding-left: 32px;
+}
+.home-4 .flex-4 h3, .home-4 .flex-4 p{
+  margin-bottom: 20px;
+}
+
+.card-4{
+  margin-bottom: 40px;
 }
