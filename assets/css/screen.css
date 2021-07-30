@@ -34,3 +34,62 @@ header{
 footer{
   display: none;
 }
+
+/* Mobile size */
+
+.home-1{
+  box-sizing: border-box;
+  background-image: url(../pictures/home-1-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 120px 0px;
+  height: 100vh;
+  padding: 260px 24px 80px 24px;
+}
+.home-1 article{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-2{
+  background-image: url(../pictures/home-2-background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 64px 24px 64px 24px;
+}
+.home-2 article h2{
+  margin-bottom: 20px;
+}
+.home-2 article p{
+  margin-bottom: 35px;
+}
+.home-2 ul{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.home-2 ul li{
+  padding: 32px 24px 32px 24px;
+  margin-bottom: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 40px 120px -40px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.home-2 ul li h5{
+  margin-bottom: 8px;
+}
+
+.home-3{
+  margin-top: 80px;
+}
+
+.home-4{
+  background-image: url(../pictures/home-4-background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 64px 24px 48px 24px;
+}
