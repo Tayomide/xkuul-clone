@@ -48,6 +48,9 @@ a{
 p{
   padding-bottom: 14.5px;
 }
+.fa-long-arrow-alt-right{
+  margin-left: 16px;
+}
 
 .home-1{
   box-sizing: border-box;
@@ -117,6 +120,15 @@ p{
   box-shadow: 0px 12px 24px -8px rgba(59, 79, 228, 0.4);
   color: #ffffff;
 }
+.home-2 .contain i{
+  margin-bottom: 16px;
+  fill: rgb(59, 79, 228);
+  color: rgb(59, 79, 228);
+  padding: 12px;
+  font-size: 150%;
+  background-color: rgba(59, 79, 228, 0.1);
+  border-radius: 50%;
+}
 
 .home-3{
   box-sizing: border-box;
@@ -182,16 +194,30 @@ p{
 }
 .flex-4 .bord{
   border-left: 1px solid #DEE1F8;
-}
-.flex-4 h6{
   padding-left: 32px;
 }
 .home-4 .flex-4 h3, .home-4 .flex-4 p{
   margin-bottom: 20px;
 }
-.card-4{
+.card-contain{
   margin-bottom: 40px;
 }
+.card-contain .card-4{
+  padding: 32px 32px 32px 32px;
+  background-color: #3B4FE4;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 24px 32px 80px -16px rgba(59, 79, 228, 0.65);
+}
+.card-contain .card-4 i{
+  background-color: rgba(255, 255, 255, 0.23);
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 150%;
+  margin-bottom: 16px;
+}
+
 .home-4 .but{
   padding-top: 32px;
   text-align: left;
@@ -201,6 +227,15 @@ p{
   background-color: #ffffff;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
   color: #3b4fe4;
+}
+.home-4 article ul li i{
+  margin-bottom: 16px;
+  fill: rgb(59, 79, 228);
+  color: rgb(59, 79, 228);
+  padding: 10px;
+  font-size: 100%;
+  background-color: rgba(59, 79, 228, 0.1);
+  border-radius: 50%;
 }
 
 .but{
