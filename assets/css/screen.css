@@ -201,12 +201,19 @@ p{
 }
 .card-contain{
   margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.card-contain img{
+  width: 100%;
+  position: relative;
+  bottom: -10px;
 }
 .card-contain .card-4{
   padding: 32px 32px 32px 32px;
   background-color: #3B4FE4;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
   box-shadow: 24px 32px 80px -16px rgba(59, 79, 228, 0.65);
+  position: relative;
 }
 .card-contain .card-4 i{
   background-color: rgba(255, 255, 255, 0.23);
@@ -217,7 +224,6 @@ p{
   font-size: 150%;
   margin-bottom: 16px;
 }
-
 .home-4 .but{
   padding-top: 32px;
   text-align: left;
