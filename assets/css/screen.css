@@ -298,6 +298,32 @@ p{
 .abou-4{
   padding: 64px 24px 64px 24px;
 }
+.abou-4 figure{
+  padding: 30px;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 24px 80px -24px rgba(0, 0, 0, 0.24);
+  background-color: #ffffff;
+}
+.abou-4 img{
+  width: 56%;
+  vertical-align: middle;
+}
+.abou-4 figcaption{
+  margin:.8075em 0;
+}
+.abou-4 article{
+  text-align: center;
+}
+.abou-4 article h2{
+  margin-bottom: 20px;
+}
+.abou-4 article p{
+  margin-bottom: 1em;
+}
 
 
 .but{
