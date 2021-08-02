@@ -335,6 +335,9 @@ p{
   background-size: cover;
   border-radius: 0px 0px 120px 0px;
 }
+.serv-1 h2{
+  margin-bottom: 20px;
+}
 
 .serv-2{
   background-image: url(../picture/home-2-background.svg);
@@ -344,6 +347,30 @@ p{
   box-sizing: border-box;
   padding: 64px 24px 64px 24px;
 }
+.serv-2 article{
+  text-align: center;
+}
+.serv-2 article h2{
+  margin-bottom: 20px;
+}
+.serv-2 article p{
+  margin-bottom: 34.5px;
+}
+.serv-2 ul li{
+  background-color: #FFFFFF;
+  box-shadow: 0px 24px 120px -24px rgba(0, 0, 0, 0.24);
+  border-radius: 0px 0px 8px 8px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.serv-2 ul li .card-2{
+  padding: 0px 24px 24px 24px;
+}
+.serv-2 ul li img{
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
 
 .serv-3{
   background-image: url(../picture/home-4-background.svg);
@@ -351,11 +378,58 @@ p{
   background-size: contain;
   padding: 64px 24px 64px 24px;
 }
+.serv-3 article{
+  text-align: center;
+}
+.serv-3 article h2{
+  margin-bottom: 20px;
+}
+.serv-3 article p{
+  margin-bottom: 34.5px;
+}
+.serv-3 ul li{
+  background-color: #FFFFFF;
+  border-radius: 8px 8px 8px 8px;
+  box-sizing: border-box;
+  box-shadow: 0px 24px 80px -24px rgba(0, 0, 0, 0.24);
+  padding: 0px 24px 24px 24px;
+  margin: 24px 0px;
+
+}
 
 .serv-4{
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
   background-color: transparent;
   background-image: linear-gradient(180deg, #FFFFFF 32%, #3B4FE4 32%);
+}
+.serv-4 .back-hold{
+  box-sizing: border-box;
+  width: calc(100%-80px);
+  margin: 0px 0px -80px 120px;
+  background-image: url(../pictures/home-3-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 8px 8px 8px 8px;
+}
+.serv-4 .img-hold{
+  margin: -80px 120px 80px -120px;
+  position: relative;
+  box-sizing: border-box;
+}
+.serv-4 div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 8px 8px;
+}
+.serv-4 article{
+  padding: 120px 40px 64px 24px;
+}
+.serv-4 article p{
+  padding-bottom: 34.5px;
 }
 
 .but{
