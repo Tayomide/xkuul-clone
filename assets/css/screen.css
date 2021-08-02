@@ -326,6 +326,37 @@ p{
   margin-bottom: 1em;
 }
 
+.serv-1{
+  padding: 160px 24px 80px 24px;
+  box-sizing: border-box;
+  background-image: url(../pictures/service-1-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 120px 0px;
+}
+
+.serv-2{
+  background-image: url(../picture/home-2-background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+  padding: 64px 24px 64px 24px;
+}
+
+.serv-3{
+  background-image: url(../picture/home-4-background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 64px 24px 64px 24px;
+}
+
+.serv-4{
+  box-sizing: border-box;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #FFFFFF 32%, #3B4FE4 32%);
+}
 
 .but{
   box-sizing: border-box;
