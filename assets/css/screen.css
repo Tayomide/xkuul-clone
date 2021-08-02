@@ -363,6 +363,8 @@ p{
   box-sizing: border-box;
   width: 100%;
   margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
 }
 .serv-2 ul li .card-2{
   padding: 0px 24px 24px 24px;
@@ -370,6 +372,19 @@ p{
 .serv-2 ul li img{
   width: 100%;
   border-radius: 8px 8px 0px 0px;
+}
+.serv-2 ul li i{
+  fill: #ffffff;
+  color: #ffffff;
+  padding:16px;
+  border-radius: 6px 6px 6px 6px;
+  background-color: #3B4FE4;
+  padding: 16px;
+  margin-top: -24px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left: auto;
 }
 
 .serv-3{
