@@ -340,7 +340,7 @@ p{
 }
 
 .serv-2{
-  background-image: url(../picture/home-2-background.svg);
+  background-image: url(../pictures/home-2-background.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -373,7 +373,7 @@ p{
 }
 
 .serv-3{
-  background-image: url(../picture/home-4-background.svg);
+  background-image: url(../pictures/home-4-background.svg);
   background-repeat: no-repeat;
   background-size: contain;
   padding: 64px 24px 64px 24px;
