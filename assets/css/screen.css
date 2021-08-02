@@ -164,6 +164,10 @@ p{
 .home-3 article p{
   padding-bottom: 34.5px;
 }
+.home-3 article h3{
+  padding-bottom: 20px;
+  color: #ffffff;
+}
 .home-3 .but{
   text-align: left;
 }
@@ -369,6 +373,9 @@ p{
 .serv-2 ul li .card-2{
   padding: 0px 24px 24px 24px;
 }
+.serv-2 ul li .card-2 h4{
+  margin-bottom: 10px;
+}
 .serv-2 ul li img{
   width: 100%;
   border-radius: 8px 8px 0px 0px;
@@ -423,6 +430,9 @@ p{
   margin-top: -24px;
   margin-right: auto;
 }
+.serv-3 ul li h5{
+  margin-bottom: 12px;
+}
 
 .serv-4{
   box-sizing: border-box;
@@ -457,6 +467,10 @@ p{
 }
 .serv-4 article p{
   padding-bottom: 34.5px;
+}
+.serv-4 article h3{
+  padding-bottom: 20px;
+  color: #ffffff;
 }
 
 .but{
