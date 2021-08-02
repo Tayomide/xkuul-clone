@@ -408,8 +408,20 @@ p{
   box-sizing: border-box;
   box-shadow: 0px 24px 80px -24px rgba(0, 0, 0, 0.24);
   padding: 0px 24px 24px 24px;
-  margin: 24px 0px;
-
+  margin: 45px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.serv-3 ul li i{
+  background-color: #3B4FE4;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  padding: 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: -24px;
+  margin-right: auto;
 }
 
 .serv-4{
