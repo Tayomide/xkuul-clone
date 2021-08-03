@@ -29,12 +29,6 @@ header{
   display: none;
 }
 
-/* Hide footer */
-
-footer{
-  display: none;
-}
-
 /* Mobile size */
 html{
   font-size: 1em;
