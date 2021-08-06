@@ -494,3 +494,15 @@ p{
   line-height: 1;
   letter-spacing: 0.5px;
 }
+
+footer section ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer section .half{
+   width: 50%;
+}
+footer section .full{
+  width: 100%;
+}
