@@ -541,6 +541,17 @@ footer section ul li ul li{
   padding-bottom: 4px;
   margin-top: 4px;
 }
+footer section .full ul{
+  display: flex;
+  flex-direction: row;
+}
+footer section .full ul li i{
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #3b4fe4;
+  color: #ffffff;
+}
+
 footer .part-2{
   padding:32px 0px;
   border-style: solid;
