@@ -37,6 +37,30 @@ html{
 .section{
   box-sizing: border-box;
 }
+
+/*
+  Setting type according to a 4:5 (Major Third) Modular Scale:
+  https://www.modularscale.com/?1&em&1.25
+*/
+h1{
+  font-size: 3.815em;
+}
+h2{
+  font-size: 3.052em;
+}
+h3{
+  font-size: 2.441em;
+}
+h4{
+  font-size: 1.953em;
+}
+h5{
+  font-size: 1.563em;
+}
+h6{
+  font-size: 1.25em;
+}
+
 a{
   font-size: 85%;
 }
