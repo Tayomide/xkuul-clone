@@ -32,6 +32,7 @@ header{
 /* Mobile size */
 html{
   font-size: 1em;
+  line-height: 1.85;
 }
 .section{
   box-sizing: border-box;
@@ -41,7 +42,6 @@ a{
 }
 p{
   padding-bottom: 14.5px;
-  line-height: 1.85;
 }
 .fa-long-arrow-alt-right{
   margin-left: 16px;
