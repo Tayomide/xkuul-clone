@@ -32,7 +32,7 @@ header{
 /* Mobile size */
 html{
   font-size: 1em;
-  line-height: 1.85;
+  line-height: 1.85em;
 }
 .section{
   box-sizing: border-box;
@@ -50,26 +50,32 @@ html{
 h1{
   /* font-size: 3.815em; */
   font-size: 2.027em;
+  line-height: 1.2em;
 }
 h2{
   /* font-size: 3.052em; */
   font-size: 1.802em;
+  line-height: 1.2em;
 }
 h3{
   /* font-size: 2.441em; */
   font-size: 1.602em;
+  line-height: 1.2em;
 }
 h4{
   /* font-size: 1.953em; */
   font-size: 1.424em;
+  line-height: 1.2em;
 }
 h5{
   /* font-size: 1.563em; */
   font-size: 1.266em;
+  line-height: 1.2em;
 }
 h6{
   /* font-size: 1.25em; */
   font-size: 1.125em;
+  line-height: 1.2em;
 }
 
 a{
