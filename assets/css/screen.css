@@ -37,16 +37,21 @@ html{
 .section{
   box-sizing: border-box;
 }
-
+/*
+  max-width - 760px
+  Setting type according to a 8:9 (Major Second) Modular Scale:
+  https://www.modularscale.com/?1&em&1.125
+ */
+ /*
+  min-width - 760px  max-width -
+  Setting type according to a 5:6 (Major Second) Modular Scale:
+  https://www.modularscale.com/?1&em&1.2
+ */
 /*
   Setting type according to a 4:5 (Major Third) Modular Scale:
   https://www.modularscale.com/?1&em&1.25
 */
-/*
-  Mobile
-  Setting type according to a 8:9 (Major Second) Modular Scale:
-  https://www.modularscale.com/?1&em&1.125
- */
+
 h1{
   /* font-size: 3.815em; */
   font-size: 2.027em;
