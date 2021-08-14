@@ -263,7 +263,7 @@ p{
 .card-contain img{
   width: 100%;
   position: relative;
-  bottom: -0.625em; /* 10px/16px - 0.625em*/
+  bottom: -0.9em;
 }
 .card-contain .card-4{
   padding: 2em; /* 32px/16px - 2em*/
