@@ -687,7 +687,7 @@ footer .part-2{
   }
   .home-3{
     flex-direction: row;
-    background-image: linear-gradient(90deg, #FFFFFF 32%, #3B4FE4 32%)
+    background-image: linear-gradient(90deg, #FFFFFF 32%, #3B4FE4 32%);
   }
   .home-3 .backhold{
     width: calc(50% - 7.5em);
