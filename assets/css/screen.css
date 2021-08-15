@@ -821,4 +821,65 @@ footer .part-2{
     margin:.8075em 0em;
     color: #6e7180;
   }
+  .serv-1{
+    padding: 160px 40px 104px 40px;
+  }
+  .serv-2{
+    padding: 80px 30px;
+  }
+  .serv-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .serv-2 ul li{
+    width: 32%;
+  }
+  .serv-2 ul li p{
+    padding-bottom: 0px;
+  }
+  .serv-3{
+    padding: 64px 40px 80px 40px;
+  }
+  .serv-3 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .serv-3 ul li{
+    width: 30%;
+  }
+  .serv-4{
+    margin-bottom: 64px;
+    flex-direction: row;
+    background-image: linear-gradient(90deg, #FFFFFF 32%, #3B4FE4 32%);
+  }
+  .serv-4 .backhold{
+    width: calc(50% - 7.5em);
+  }
+  .serv-4 article{
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .serv-4 article h3{
+    padding-bottom: 16px;
+  }
+  .serv-4 article p{
+    padding-bottom: 28px;
+  }
+  .serv-4 .img-hold{
+    margin: -3em 7.5em 5em -7.5em;
+  }
+  .serv-4 .back-hold{
+    margin-left: 100px;
+    margin-bottom: -60px;
+    width: 100%;
+  }
+  footer section .half, footer section .under{
+    width: 33.333%;
+  }
 }
