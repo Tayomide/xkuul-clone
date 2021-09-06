@@ -883,3 +883,56 @@ footer .part-2{
     width: 33.333%;
   }
 }
+@media screen and (min-width: 1000px) {
+  h1{
+    font-size: 3.815em;
+  }
+  h2{
+    font-size: 3.052em;
+  }
+  h3{
+    font-size: 2.441em;
+  }
+  h4{
+    font-size: 1.953em;
+  }
+  h5{
+    font-size: 1.563em;
+  }
+  h6{
+    font-size: 1.25em;
+  }
+  .home-1 article{
+    max-width: 1200px;
+    height: 408px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-1 article p{
+    padding-right: 50%;
+  }
+  .home-2{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-2 ul li{
+    padding: 40px;
+  }
+  .home-3{
+    max-width: calc(1200px + calc(100vw - 1200px)/2);
+    margin-left: 10px;
+    align-items: flex-start;
+    margin-left: calc(calc(100vw - 1200px)/2);
+    /* background-image: url(../picture/home-3-background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto; */
+  }
+  .home-3 .img-hold {
+    margin: -5em 7.5em 5em -7.5em;
+  }
+  .home-3 article{
+    padding-right: calc(calc(100vw - 1120px)/2)
+  }
+}
